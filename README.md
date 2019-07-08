@@ -66,7 +66,7 @@
 - Use surrounding tagged tokens to discriminate better:
     - People laugh, cry, shout, etc.
 
-### Brute force
+### Brute Force
 - Can be added to.
 - May be used in conjunction with NER analysis.
 
