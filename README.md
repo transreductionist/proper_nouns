@@ -22,9 +22,17 @@ while the name Alice is not. This points to an underlying complexity to the prob
 
 ## Bob found that 127.0.0.1 was bad and 123.4.5.6 was safe.
 
-### Use Named Recognition Entity Tools for Names
+### Use Named Entity Recognition (NER) Tools for Finding Names
+
+- Near-human performance can be achieved with the best NER systems. Consider that one of the best systems
+scored 93.39% of F-measure, and human annotators, like the ones who created the Gronigen Meaning Bank (GMB)
+corpus, scored 97.60% and 96.95%.
 
 - Links to data used in this project can be found in Appendix A & B.
+
+- [NLTK Organization Book Chapter 7](http://www.nltk.org/book_1ed/ch07.html) covers extracting information from text.
+
+- [Chunking HOWTO](http://www.nltk.org/howto)
 
 - Try using frequencies of characters with respect to position in a word or name as a discriminator.
     - Names derived from Social Security Administration database and word from wordnet.
@@ -42,7 +50,13 @@ while the name Alice is not. This points to an underlying complexity to the prob
     - Compare results to known IOB tagged corpus Gronigen Meaning Bank (GMB)
 
 - Question: Are `name` and `ip_address independent` from one another?
-    - If not they may be used to obtain information about the name.
+    - If not, they may be used to obtain information about the name.
+
+#### Other Named Entity Recognition Platforms
+
+- GATE supports NER across many languages and domains out of the box, usable via a graphical interface and a Java API.
+- OpenNLP includes rule-based and statistical named-entity recognition.
+- SpaCy features fast statistical NER as well as an open-source named-entity visualizer.
 
 ### Use Regex for IP Addresses
 
@@ -78,17 +92,27 @@ while the name Alice is not. This points to an underlying complexity to the prob
     - Example difference: [ Ahmed, Qureia ]
     - Qureia not found in Social Security Administration first name list.
 
-## Weaknesses
+## Weaknesses & Comments
+
+The analysis here was done in English. Opening up the problem domain to other languages adds more complexity.
 
 ### Named Entity Recognition
-- Is only as accurate as simple brute force, but with many false positives.
+
+- Susceptible to errors, such as tagging Christion Dior as a name.
+- Out-of-the box it appears that `ne_chunk` performs like the simple brute force method, but with many false positives (FP).
 - Can be trained to have less FP and higher percentage correct.
 - Use surrounding tagged tokens to discriminate better:
     - People laugh, cry, shout, etc.
+    - Neighborhood associations.
+- Adaptable and extendable.
 
 ### Brute Force
-- Can be added to.
-- May be used in conjunction with NER analysis.
+
+- Can be added to, and names are fairly static entities. Once you have them you have them.
+- There are extensive databases across the internet that can be used to build a more comprehensive list.
+- Search algorithms can be created to improve performance.
+- It is not adaptable.
+- May be used alongside a NER analysis.
 
 
 ## Appendix A: Gronigen Meaning Bank
@@ -101,6 +125,13 @@ Groningen, comprises thousands of texts in raw and tokenised format, tags for pa
 speech, named entities and lexical categories, and discourse representation structures
 compatible with first-order logic.
 
+
+## Additional Work
+
+- Look into using the `nltk.chunk.api` module and its `evaluate(gold)` function. There is also
+`nltk.chunk.util.ChunkScore`.
+- Investigate the large number of false positives as compared to the percentage correct for the Named
+Entity Recognition analysis.
 
 ## Appendix B: U.S. Census Data
 
@@ -116,10 +147,10 @@ first names from the Social Security Administration.
 Posted under the user name Aaron:
 
 - [Golang Enumerations](https://stackoverflow.com/questions/14426366/what-is-an-idiomatic-way-of-representing-enums-in-go/56807462#56807462)
-- [Parametric Cubic Equation and Bisection Routine](https://stackoverflow.com/questions/31102754/find-intersection-of-ax-and-by-in-complex-plane-plus-corr-x-and-y/31225836#31225836)
+- [Parametric Cubic Equation and Bisection Routine](https://stackoverflow.com/questions/31102754/find-intersection-of-ax-and-by-in-complex-plane-plus-corr-x-and-y/31225836#31225836) (Matplotlib)
 - [Deploying Django to AWS WSGIPATH Refers to a File That does not Exist](https://stackoverflow.com/questions/29395875/deploying-django-to-aws-wsgipath-refers-to-a-file-that-does-not-exist/29981741#29981741)
 
-## Appendix C
+## Appendix C: Some Tags
 
 - CC: conjunction, coordinating
 - CD: numeral, cardinal
