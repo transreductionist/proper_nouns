@@ -1,4 +1,6 @@
-<img src="https://user-images.githubusercontent.com/8593071/60805400-f8309d00-a14d-11e9-86a8-f9780e3110e5.jpg" width="200" height="125" />
+<div align="center"><img src="https://user-images.githubusercontent.com/8593071/60805400-f8309d00-a14d-11e9-86a8-f9780e3110e5.jpg" width="200" height="125" align="middle"/></div>
+
+
 
 # Find Name & IP Address in String
 
