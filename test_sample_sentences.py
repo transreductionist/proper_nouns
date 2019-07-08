@@ -1,3 +1,5 @@
+"""Run a test on the provided test sentence, as well as a few others in data/sentences."""
+
 from nltk.chunk import ne_chunk
 from nltk.chunk import tree2conlltags
 
