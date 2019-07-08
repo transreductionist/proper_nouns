@@ -93,6 +93,14 @@ first names from the Social Security Administration.
 - [Social Security Administration First Names Database](https://data.world/len/us-first-names-database)
 
 
+## Some Interesting StackOverflow Answers
+
+Posted under the user name Aaron:
+
+- [Golang Enumerations](https://stackoverflow.com/questions/14426366/what-is-an-idiomatic-way-of-representing-enums-in-go/56807462#56807462)
+- [Parametric Cubic Equation and Bisection Routine](https://stackoverflow.com/questions/31102754/find-intersection-of-ax-and-by-in-complex-plane-plus-corr-x-and-y/31225836#31225836)
+- [Deploying Django to AWS WSGIPATH Refers to a File That does not Exist](https://stackoverflow.com/questions/29395875/deploying-django-to-aws-wsgipath-refers-to-a-file-that-does-not-exist/29981741#29981741)
+
 ## Appendix C
 
 - CC: conjunction, coordinating
