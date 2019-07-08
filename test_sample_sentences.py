@@ -1,13 +1,13 @@
 from nltk.chunk import ne_chunk
 from nltk.chunk import tree2conlltags
 
-from funcs.gmb import get_names_from_tokens
+from proper_nouns.funcs.gmb import get_names_from_tokens
 
-from funcs.utilities import download_required_nltk_packages
-from funcs.utilities import find_ip_addresses_regex
-from funcs.utilities import read_txt
-from funcs.utilities import SENTENCES_PATH
-from funcs.utilities import tokenize_string
+from proper_nouns.funcs.utilities import download_required_nltk_packages
+from proper_nouns.funcs.utilities import find_ip_addresses_regex
+from proper_nouns.funcs.utilities import read_txt
+from proper_nouns.funcs.utilities import SENTENCES_PATH
+from proper_nouns.funcs.utilities import tokenize_string
 
 download_required_nltk_packages()
 
