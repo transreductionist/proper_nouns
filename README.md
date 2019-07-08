@@ -49,7 +49,7 @@ while the name Alice is not. This points to an underlying complexity to the prob
 
 ## Bob found that 127.0.0.1 was bad and 123.4.5.6 was safe.
 
-### Use Named Entity Recognition (NER) Tools for Finding Names
+### Named Entity Recognition & Brute Force
 
 - Near-human performance can be achieved with the best NER systems. Consider that one of the best systems
 scored 93.39% of F-measure, and human annotators, like the ones who created the Gronigen Meaning Bank (GMB)
