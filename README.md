@@ -1,4 +1,4 @@
-![ice_age_penguins_4](https://user-images.githubusercontent.com/8593071/60805400-f8309d00-a14d-11e9-86a8-f9780e3110e5.jpg=250px)
+<img src="https://user-images.githubusercontent.com/8593071/60805400-f8309d00-a14d-11e9-86a8-f9780e3110e5.jpg" width="200" height="125" />
 
 # Find Name & IP Address in String
 
