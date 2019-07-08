@@ -53,7 +53,8 @@ while the name Alice is not. This points to an underlying complexity to the prob
 
 - Near-human performance can be achieved with the best NER systems. Consider that one of the best systems
 scored 93.39% of F-measure, and human annotators, like the ones who created the Gronigen Meaning Bank (GMB)
-corpus, scored 97.60% and 96.95%.
+corpus, scored 97.60% and 96.95%. Out-of-the box the results here are not that high, however with more
+study on why tagging missed certain names, it can definitely be improved.
 
 - Links to data used in this project can be found in Appendix A & B.
 
