@@ -1,5 +1,7 @@
 # Project
-data/
+data/archive
+data/gmb
+data/pickles
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
