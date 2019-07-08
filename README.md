@@ -2,6 +2,24 @@
 
 # Find Name & IP Address in String
 
+- `pip install nltk`
+- `pip install wordnet`
+
+## Comment on Data Sets
+
+The project used several data sets that are listed in Appendix A & B. These sets were large and so have
+not been included in the repository, and they can be downloaded from the links provided. Other data sets were
+generated from Python scripts, and again have not been saved in the repository.
+
+The given test sentence, along with some other examples have been included in a text file in the
+Data directory. The second and third sentences are:
+
+- Caroline found out that the IP address 192.168.1.89/32 was a honey pot.
+- Alice found out that the IP address 192.168.1.89/32 was a honey pot.
+
+It is an interesting example, because the name Caroline is retrieved by the Named Entity Recognition solution,
+while the name Alice is not. This points to an underlying complexity to the problem.
+
 ## Bob found that 127.0.0.1 was bad and 123.4.5.6 was safe.
 
 ### Use Named Recognition Entity Tools for Names
