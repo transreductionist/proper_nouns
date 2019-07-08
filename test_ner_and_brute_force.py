@@ -8,17 +8,17 @@
 from nltk.chunk import ne_chunk
 from nltk.chunk import tree2conlltags
 
-from funcs.gmb import is_person_tagged
-from funcs.gmb import people_in_census
-from funcs.gmb import read_gmb_corpus
+from proper_nouns.funcs.gmb import is_person_tagged
+from proper_nouns.funcs.gmb import people_in_census
+from proper_nouns.funcs.gmb import read_gmb_corpus
 
-from funcs.gmb import print_intermediate_results
+from proper_nouns.funcs.gmb import print_intermediate_results
 
-from funcs.utilities import download_required_nltk_packages
-from funcs.utilities import get_all_census_names
-from funcs.utilities import parse_ner_counts
-from funcs.utilities import parse_census_counts
-from funcs.utilities import tokenize_string
+from proper_nouns.funcs.utilities import download_required_nltk_packages
+from proper_nouns.funcs.utilities import get_all_census_names
+from proper_nouns.funcs.utilities import parse_ner_counts
+from proper_nouns.funcs.utilities import parse_census_counts
+from proper_nouns.funcs.utilities import tokenize_string
 
 download_required_nltk_packages()
 

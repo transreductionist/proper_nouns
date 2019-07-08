@@ -3,11 +3,11 @@
 from functools import reduce
 from statistics import mean
 
-from proper_noun_original.funcs.utilities import FIRST_NAMES_PATHS
-from proper_noun_original.funcs.utilities import WORDS_PATHS
-from proper_noun_original.funcs.utilities import load_pickle
-from proper_noun_original.funcs.utilities import multiply
-from proper_noun_original.funcs.utilities import print_frequencies
+from proper_nouns.funcs.utilities import FIRST_NAMES_PATHS
+from proper_nouns.funcs.utilities import WORDS_PATHS
+from proper_nouns.funcs.utilities import load_pickle
+from proper_nouns.funcs.utilities import multiply
+from proper_nouns.funcs.utilities import print_frequencies
 
 words_probs = load_pickle(WORDS_PATHS['pkl_cnts_norm'])
 words_probs = words_probs['data']

@@ -1,12 +1,12 @@
 """Build counts for names and words."""
 
-from proper_noun_original.funcs.utilities import dump_data_to_pickle
-from proper_noun_original.funcs.utilities import FIRST_NAMES_PATHS
-from proper_noun_original.funcs.utilities import get_counts
-from proper_noun_original.funcs.utilities import load_pickle
-from proper_noun_original.funcs.utilities import normalize_counts
-from proper_noun_original.funcs.utilities import SURNAMES_PATHS
-from proper_noun_original.funcs.utilities import WORDS_PATHS
+from proper_nouns.funcs.utilities import dump_data_to_pickle
+from proper_nouns.funcs.utilities import FIRST_NAMES_PATHS
+from proper_nouns.funcs.utilities import get_counts
+from proper_nouns.funcs.utilities import load_pickle
+from proper_nouns.funcs.utilities import normalize_counts
+from proper_nouns.funcs.utilities import SURNAMES_PATHS
+from proper_nouns.funcs.utilities import WORDS_PATHS
 
 
 def build_first_name_counts():
