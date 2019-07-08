@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/8593071/60805400-f8309d00-a14d-11e9-86a8-f9780e3110e5.jpg" width="200" height="125" />
+
 # Find Name & IP Address in String
 
 ## Bob found that 127.0.0.1 was bad and 123.4.5.6 was safe.
@@ -90,6 +92,14 @@ first names from the Social Security Administration.
 - [Frequently Occurring Surnames from the Census 2010](https://www.census.gov/topics/population/genealogy/data.html)
 - [Social Security Administration First Names Database](https://data.world/len/us-first-names-database)
 
+
+## Some Interesting StackOverflow Answers
+
+Posted under the user name Aaron:
+
+- [Golang Enumerations](https://stackoverflow.com/questions/14426366/what-is-an-idiomatic-way-of-representing-enums-in-go/56807462#56807462)
+- [Parametric Cubic Equation and Bisection Routine](https://stackoverflow.com/questions/31102754/find-intersection-of-ax-and-by-in-complex-plane-plus-corr-x-and-y/31225836#31225836)
+- [Deploying Django to AWS WSGIPATH Refers to a File That does not Exist](https://stackoverflow.com/questions/29395875/deploying-django-to-aws-wsgipath-refers-to-a-file-that-does-not-exist/29981741#29981741)
 
 ## Appendix C
 
