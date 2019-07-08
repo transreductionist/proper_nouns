@@ -5,6 +5,15 @@
 - `pip install nltk`
 - `pip install wordnet`
 
+## General Comments on Code
+
+- Document strings were included, however they need to be expanded.
+- The organization of the helper functions can be improved.
+- Some of the functions need to be more narrowly crafted.
+- The use of generators should be employed where possible. Perhaps using classes for the Gronigen Meaning Bank (GMB)
+would create a more readable and functional structure.
+
+
 ## Comment on Data Sets
 
 The project used several data sets that are listed in Appendix A & B. These sets were large and so have

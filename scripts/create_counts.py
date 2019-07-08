@@ -1,4 +1,4 @@
-"""Build name and wotrd counts from data."""
+"""Build name and word counts from data."""
 
 from proper_nouns.funcs.build_counts import build_first_name_counts
 from proper_nouns.funcs.build_counts import build_surname_counts
