@@ -5,6 +5,22 @@
 - `pip install nltk`
 - `pip install wordnet`
 
+## Satement of the Problem
+
+A rather simple statement:
+
+- given a string of text detect IP Addresses and Persons/Names in the string. For example, with the input:
+    - "Bob found that 127.0.0.1 was bad and 123.4.5.6 was safe."
+        - The solution is: `[ 127.0.0.1, 123.4.5.6 ]` for the IP Addresses.
+        - For the person's name it should find `[ Bob ]`.
+
+Use any python packages you find useful, and any data structures/print statements, etc. to demonstrate the
+results.
+
+Provide a general discussion for any kind of weaknesses with the approach that you use as well as
+general thoughts about the problem. I'd like to see discussion about how you would approach testing this
+problem, or about any other possible solution paths you would be looking to test.
+
 ## General Comments on Code
 
 - Document strings were included, however they need to be expanded.
@@ -69,7 +85,12 @@ corpus, scored 97.60% and 96.95%.
 
 ### Use Regex for IP Addresses
 
+Numerical IP Addresses can be captured with a regex, such as:
+
 - `r'\b(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\b'`
+
+If the IP address can be something like `https://github.com/transreductionist/proper_nouns` our problem becomes more
+difficult.
 
 ## Results
 
