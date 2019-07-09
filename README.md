@@ -50,7 +50,7 @@ Data directory. The second and third sentences are:
 - Alice found out that the IP address 192.168.1.89/32 was a honey pot.
 
 It is an interesting example, because the name Caroline is retrieved by the Named Entity Recognition solution,
-while the name Alice is not. This points to an underlying complexity to the problem.
+while the name Alice is not. This points to an underlying complexity to the problem. Notice that the word phrase "Alice found" suggests that "Alice" is a name. Looking at neighboring tagged tokens is one way to improve the results.
 
 ## Bob found that 127.0.0.1 was bad and 123.4.5.6 was safe.
 
