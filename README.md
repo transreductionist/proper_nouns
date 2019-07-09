@@ -7,6 +7,12 @@
 - `pip install nltk`
 - `pip install wordnet`
 
+**Preface** As natural language processing problems are solved, a programmer comes to understand our limitations. For a human, finding a name in a sentence is easy, on the other hand, for a machine the matter is qute different. Then there are the other complications, e.g. misspellings, disambiguation, etc. The methods here use tools that treat language as data, and use pattern matching and statistical analysis using tagged corpi to extract information from the data.
+
+As an example, `nltk.chunk` provides classes and interfaces for identifying non-overlapping linguistic groups (such as base noun phrases) in unrestricted text. A chunk structure is a tree containing tokens and chunks, where each chunk is a subtree containing only tokens. The chunking uses regular-expression pattern matching at its base for build the tree.
+
+What would be exciting is to find other techniques, such as those that use nueral networks, to process language. These would "understand" language and be able to make long range associations. One can think of the analogy of a grammer as opposed to a universal grammar.
+
 ## Satement of the Problem
 
 A rather simple statement:
@@ -16,8 +22,7 @@ A rather simple statement:
         - The solution is: `[ 127.0.0.1, 123.4.5.6 ]` for the IP Addresses.
         - For the person's name it should find `[ Bob ]`.
 
-Use any python packages you find useful, and any data structures/print statements, etc. to demonstrate the
-results.
+And as is often the case with simple questions, a less than simple solution. Use any python packages you find useful, and any data structures/print statements, etc. to demonstrate the results.
 
 Provide a general discussion for any kind of weaknesses with the approach that you use as well as
 general thoughts about the problem. I'd like to see discussion about how you would approach testing this
