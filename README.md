@@ -137,12 +137,13 @@ The analysis here was done in English. Opening up the problem domain to other la
 ### Named Entity Recognition
 
 - Susceptible to errors, such as tagging Christion Dior as a name.
-- Out-of-the box it appears that `ne_chunk` performs like the simple brute force method, but with many false positives (FP).
-- Can be trained to have less FP and higher percentage correct.
+- Out-of-the box it appears that `ne_chunk` performs like the simple brute force method, but with many false positives.
+- Can be trained to have less false positives and higher percentage correct.
 - Use surrounding tagged tokens to discriminate better:
     - People laugh, cry, shout, etc.
     - Neighborhood associations.
 - Adaptable and extendable.
+- Named Entity Recognition does not "Understand" language.
 
 ### Brute Force
 
