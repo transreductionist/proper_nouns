@@ -11,7 +11,7 @@
 
 As an example, `nltk.chunk` provides classes and interfaces for identifying non-overlapping linguistic groups (such as base noun phrases) in unrestricted text. A chunk structure is a tree containing tokens and chunks, where each chunk is a subtree containing only tokens. The chunking uses regular-expression pattern matching at its base for building the tree.
 
-What would be exciting is to find other techniques, such as those that use nueral networks, to process language. These would "understand" language and be able to make long range associations. One can think of the analogy of a grammer as opposed to a universal grammar.
+What would be exciting is to use other techniques, such as those that use nueral networks, to process language. These would better coem to an "understanding" of language and be able to make long range associations. One can think of the analogy of a grammer as opposed to a universal grammar.
 
 ## Satement of the Problem
 
