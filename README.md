@@ -7,7 +7,7 @@
 - `pip install nltk`
 - `pip install wordnet`
 
-**Preface** As natural language processing problems are solved, a programmer comes to understand our limitations. For a human, finding a name in a sentence is easy, on the other hand, for a machine the matter is qute different. Then there are the other complications, e.g. misspellings, disambiguation, etc. The methods here use tools that treat language as data, and use pattern matching and statistical analysis using tagged corpi to extract information from the data.
+**Preface**: As natural language processing problems are solved, a programmer comes to understand our limitations. For a human, finding a name in a sentence is easy, on the other hand, for a machine the matter is qute different. Then there are the other complications, e.g. misspellings, disambiguation, etc. The methods here use tools that treat language as data, and use pattern matching and statistical analysis using tagged corpi to extract information from the data.
 
 As an example, `nltk.chunk` provides classes and interfaces for identifying non-overlapping linguistic groups (such as base noun phrases) in unrestricted text. A chunk structure is a tree containing tokens and chunks, where each chunk is a subtree containing only tokens. The chunking uses regular-expression pattern matching at its base for build the tree.
 
